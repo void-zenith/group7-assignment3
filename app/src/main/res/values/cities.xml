@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cities_array">
+        <item>Toronto Downtown</item>
+        <item>Scarborough</item>
+        <item>Mississauga</item>
+        <item>Oakville</item>
+        <item>North York</item>
+    </string-array>
+</resources>

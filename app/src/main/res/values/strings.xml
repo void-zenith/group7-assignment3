@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ZenithRajbhandari_MAPD711_Assignment3</string>
+    <string name="MAP_KEY">AIzaSyB4v7ENsCklsjmQxL9aOUSz22-fibnssEI</string>
+    <string name="title_activity_map">MapActivity</string>
+</resources>
