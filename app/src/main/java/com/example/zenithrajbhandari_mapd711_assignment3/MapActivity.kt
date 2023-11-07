@@ -1,5 +1,7 @@
 package com.example.zenithrajbhandari_mapd711_assignment3
 
+import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
 import android.location.Geocoder
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -21,6 +23,8 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
         mapFragment?.getMapAsync(this)
         val selectedCity = intent.getStringExtra("selectedCity")
         Log.d("city", selectedCity.toString())
+        val actionBar = supportActionBar
+        actionBar?.setTitle("Choose a Pizza Store!");
     }
     override fun onMapReady(googleMap: GoogleMap) {
         //enable zoom control
